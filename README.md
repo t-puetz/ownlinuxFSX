@@ -24,7 +24,7 @@ On said commit:
 
 Because even in 2020, 17 years after the first 64-bit CPU the AMD Athlon64 was released, we still need multilib systems to use our system as a daily driver. Gaming needs it. Video, Sound and Music software needs it. Virtualization needs it and probably a lot of proprietary, closed software still needs it.
 
-**A pure 64-bit system nowadays is as exotic as a daily driver nowadays as the use of IPv6still is in networking.**
+**A pure 64-bit system nowadays is as exotic as a daily driver nowadays as the use of IPv6 still is in networking.**
 
 ### Will there be something different of YOUR build of this particular LFS fork? 
 
@@ -41,9 +41,6 @@ I know AMD has PSP, but apparently it is not as bad as Intel's Management Engine
 That said if collaborators join this projects and make commits to support **NVIDIA/Intel systems I will accept the pull requests.**
 
 * I am thinking of making this a **Wayland** only build, but for the time being with xwayland support of course. Because otherwise gaming and video editing would be a PITA and defy my reasons why I am building a multilib system in the first place.
-
-* I will **NOT SUPPORT SYSTEMD**. OpenRC and runit will be the only init systems I will support for now. I know there are GNU Shepard, sinit, finit, s6 and probably many more. But I know too little about them.
-**Pull requests for systemD support will be denied.**
 
 * **The standard DE for this distro will be sway**. Maybe I will support GNOME to have a floating WM. I will use the Artix implementation of GNOME since it managed to install a GNOME without it needing systemd. However if MATE or Cinnamon turn out to have good Wayland support (in the near future) I will use those.
 Maintainers are welcome to add support for any other DE.
