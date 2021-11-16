@@ -74,5 +74,5 @@ Until bpfilter has a good state I will preinstall nftables.**
 
 * Both iwconfig and wpa_supplicant (maybe also dialog-wifi) will be offered for WiFI configuration.
 
-* The kernel will be based on the Artix Linux config of the same version. It will not be a minimalistic kernel by default. It will provide a lot of modules so it can run on many systems. If you want a customized kernel you have to edit the build scripts yourself.
+* The kernel will be based on the Manjaro Linux config of the same version. It will not be a minimalistic kernel by default. It will provide a lot of modules so it can run on many systems. If you want a customized kernel you have to edit the build scripts yourself.
 
